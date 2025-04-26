@@ -1,0 +1,12 @@
+use transport;
+create table cost_earnings(s_no int, Car varchar(50), fuel_cost int, Car_cost int, Salik int, insurance int, earnings_per_hour int, Total_revenue int, Total_profit int);
+insert into cost_earnings values (1, 'toyota camry', 44000, 95000, 50000, 7000, 20, 98000, 5000); 
+insert into cost_earnings values (2, 'toyota avlon', 43000, 98000, 40000, 5000, 45, 102000, 18000);
+insert into cost_earnings values (3, 'chevrolet malibu', 55000, 90000, 35000, 3000, 55, 100000, 14000);
+insert into cost_earnings values (4, 'ford fiesta', 40000, 80000, 50000, 3000, 70, 60000, 17000);
+insert into cost_earnings values (5, 'Bmw camry', 55000, 93000, 47000, 4200, 58, 80000, 16000);
+insert into cost_earnings values (6,' honda accord',  43000, 60000, 33000, 3500, 25, 70000, 14000);
+insert into cost_earnings values (7, 'bmw 3', 42000, 62000, 33000, 3400, 26, 73000, 12000);
+insert into cost_earnings values (8, 'hyundai venue', 44000, 75000, 35700, 4200, 43, 69000, 10000);
+insert into cost_earnings values (9, 'kia seltos', 42000, 68000, 30000, 4600, 33, 63000, 9000);
+insert into cost_earnings values (10, 'ford fusion', 56000, 68000, 37000, 5000, 37, 74000, 13000);
